@@ -1,0 +1,35 @@
+# 专为 JetBrains IDE (PyCharm, IntelliJ IDEA, WebStorm等) 配置
+# 来源：https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+
+# 整个项目配置目录
+.idea/
+
+# 忽略所有以 .iml 结尾的模块文件
+*.iml
+*.iws
+*.ipr
+
+# 忽略工作区设置
+workspace.xml
+
+# 忽略用户特定的设置（通常包含个人偏好，不应共享）
+shelf/
+*.eml
+
+# 忽略代码风格设置（团队成员可能使用不同的风格）
+codeStyles/
+
+# 忽略数据源本地历史记录（包含数据库连接密码等敏感信息）
+dataSources/
+dataSources.local.xml
+
+# 忽略动态插件
+plugins/
+
+# 忽略构建输出目录（如果配置了的话）
+out/
+
+# 忽略 Python 特定缓存目录（PyCharm相关）
+__pycache__/

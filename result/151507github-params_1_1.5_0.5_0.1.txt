@@ -1,0 +1,24 @@
+2025-10-11 09:19:07,783 - train.py[line:28] - INFO: args: [{'noise_percentage': 0.8, 'sigma': 0.5, 'apply_noise_prob': 1}, {'shuffle_non_hvg': 0.4, 'dropout_non_hvg': 0.5, 'hvg_perturb_prob': 0.4, 'strategy_weights': [0.65, 0.35]}]
+2025-10-11 09:19:12,204 - train.py[line:66] - INFO: ++++++++++151507++++++++++
+2025-10-11 09:19:12,204 - train.py[line:67] - INFO: pretrain_loss = 1*loss_rec + 1.5*loss_sl_1 + 0.5*loss_cl + 0.1*loss_adj1
+2025-10-11 09:34:41,202 - situation.py[line:41] - INFO: cffi mode is CFFI_MODE.ANY
+2025-10-11 09:34:41,212 - situation.py[line:218] - INFO: R home found: D:/SoftWare/R_Language/R-4.3.2
+2025-10-11 09:34:41,276 - embedded.py[line:20] - INFO: Default options to initialize R: rpy2, --quiet, --no-save
+2025-10-11 09:34:42,279 - callbacks.py[line:124] - WARNING: R[write to console]:                    __           __ 
+   ____ ___  _____/ /_  _______/ /_
+  / __ `__ \/ ___/ / / / / ___/ __/
+ / / / / / / /__/ / /_/ (__  ) /_  
+/_/ /_/ /_/\___/_/\__,_/____/\__/   version 6.1
+Type 'citation("mclust")' for citing this R package in publications.
+
+2025-10-11 09:35:58,493 - train.py[line:119] - INFO: -------dataset 151507 train final	mclust {'ARI': 0.556, 'NMI': 0.709, 'CA': 0.724, 'JI': 0.462, 'CS': 0.701, 'HS': 0.716, 'VMS': 0.709, 'Sil': 0.245, 'CH': 5095.307}
+2025-10-11 09:35:58,493 - train.py[line:120] - INFO: -------dataset 151507 refine final	mclust {'ARI': 0.559, 'NMI': 0.715, 'CA': 0.728, 'JI': 0.465, 'CS': 0.707, 'HS': 0.723, 'VMS': 0.715, 'Sil': 0.24, 'CH': 4867.213}
+2025-10-11 09:35:59,235 - main.py[line:103] - INFO: param_str: params_1_1.5_0.5_0.1 --------
+2025-10-11 09:35:59,236 - main.py[line:104] - INFO: mean-ari: 0.556 | mari: [0.556]
+2025-10-11 09:35:59,236 - main.py[line:105] - INFO: refinemean-ari: 0.559 | refine mari: [0.559]
+2025-10-11 09:35:59,236 - main.py[line:106] - INFO: finalmean-ari: 0.559 | final ari: [0.559]
+2025-10-11 09:35:59,237 - main.py[line:107] - INFO: ------------------------------
+2025-10-11 09:35:59,282 - callbacks.py[line:124] - WARNING: R[write to console]: Warning message:
+
+2025-10-11 09:35:59,294 - embedded.py[line:352] - INFO: Embedded R ended.
+2025-10-11 09:35:59,295 - embedded.py[line:337] - INFO: Embedded R already ended.
